@@ -1,0 +1,14 @@
+body {
+  font-family: "Playfair Display", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#pageContainer {
+  width: 100%;
+  text-align: center;
+}
+
+#pageContent {
+  display: inline-block;
+}
