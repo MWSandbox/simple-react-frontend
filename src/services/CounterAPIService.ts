@@ -16,7 +16,7 @@ function post():Promise<Counter> {
 
 function getAll():Promise<Counter[]> {
   console.dir(process.env);
-  return fetch('/simple-java-rest-backend/api/counter')
+  return fetch(API_BASE_URL + '/counter')
   .then(response => validateResponse(response));
 }
 
